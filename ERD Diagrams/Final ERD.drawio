@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.3">
   <diagram name="Page-1" id="eJ1suCUGfrgjvpVPt0L2">
-    <mxGraphModel dx="1455" dy="670" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="1166" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,8 +167,8 @@
         <mxCell id="LxQ198Bzji2fROzqUYcq-54" value="&lt;font color=&quot;#fffff5&quot;&gt;Feature &lt;b&gt;may &lt;/b&gt;be&lt;br&gt;part of&lt;b&gt; many&lt;br&gt;&lt;/b&gt;trail-features.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="825" y="298" width="104" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="LxQ198Bzji2fROzqUYcq-55" value="&lt;font color=&quot;#fffff5&quot;&gt;Trail-feature &lt;b&gt;must&lt;br&gt;&lt;/b&gt;represent&lt;br&gt;only &lt;b&gt;one &lt;/b&gt;feature.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="819" y="369" width="116" height="55" as="geometry" />
+        <mxCell id="LxQ198Bzji2fROzqUYcq-55" value="&lt;font color=&quot;#fffff5&quot;&gt;Trail-feature &lt;b&gt;must&lt;br&gt;&lt;/b&gt;represent&lt;br&gt;only &lt;b&gt;one &lt;/b&gt;feature. &lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="817" y="369" width="121" height="55" as="geometry" />
         </mxCell>
         <mxCell id="LxQ198Bzji2fROzqUYcq-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFF5;" edge="1" parent="1" source="LxQ198Bzji2fROzqUYcq-17" target="LxQ198Bzji2fROzqUYcq-44">
           <mxGeometry relative="1" as="geometry" />
