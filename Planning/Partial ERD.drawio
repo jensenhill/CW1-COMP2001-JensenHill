@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.3">
   <diagram name="Page-1" id="eJ1suCUGfrgjvpVPt0L2">
-    <mxGraphModel dx="1184" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="591" dy="334" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="AQzfYVfxDlzEViwBDPFZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;strokeColor=#FFFFF5;" parent="1" source="AQzfYVfxDlzEViwBDPFZ-1" target="AQzfYVfxDlzEViwBDPFZ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFF5;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="AQzfYVfxDlzEViwBDPFZ-1" target="93dYQHgPQti2taukCdqZ-1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFF5;endArrow=none;endFill=0;startArrow=ERmany;startFill=0;" parent="1" source="AQzfYVfxDlzEViwBDPFZ-1" target="93dYQHgPQti2taukCdqZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AQzfYVfxDlzEViwBDPFZ-1" value="Trail" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" parent="1" vertex="1">
@@ -43,10 +43,10 @@
         <mxCell id="AQzfYVfxDlzEViwBDPFZ-13" value="&lt;b&gt;Draft ERD&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="401" y="200" width="507" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="AQzfYVfxDlzEViwBDPFZ-14" value="&lt;b&gt;Entities&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="AQzfYVfxDlzEViwBDPFZ-14" value="&lt;b&gt;Initial Entities&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="401" y="134" width="507" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="AQzfYVfxDlzEViwBDPFZ-15" value="&lt;font color=&quot;#fffff5&quot;&gt;Trail, Feature, Location&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFFFF5;" parent="1" vertex="1">
+        <mxCell id="AQzfYVfxDlzEViwBDPFZ-15" value="&lt;font color=&quot;#fffff5&quot;&gt;Trail, Feature, Location, Owner&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFFFF5;" parent="1" vertex="1">
           <mxGeometry x="401" y="158" width="507" height="27" as="geometry" />
         </mxCell>
         <mxCell id="AQzfYVfxDlzEViwBDPFZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmany;startFill=0;endArrow=none;endFill=0;strokeColor=#FFFFF5;" parent="1" source="AQzfYVfxDlzEViwBDPFZ-18" target="AQzfYVfxDlzEViwBDPFZ-20" edge="1">
@@ -160,42 +160,42 @@
             <mxPoint x="543.25" y="1126" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-1" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-1" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" parent="1" vertex="1">
           <mxGeometry x="765" y="383" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-3" value="&lt;font color=&quot;#fffff5&quot;&gt;A trail has one owner.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-3" value="&lt;font color=&quot;#fffff5&quot;&gt;A trail has one owner.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="735" y="342" width="138" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-4" value="&lt;font color=&quot;#fffff5&quot;&gt;An owner may&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;have many trails.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-4" value="&lt;font color=&quot;#fffff5&quot;&gt;An owner may&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;have many trails.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="651" y="372" width="110" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFF5;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="93dYQHgPQti2taukCdqZ-5" target="AQzfYVfxDlzEViwBDPFZ-18">
+        <mxCell id="93dYQHgPQti2taukCdqZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFF5;endArrow=ERmany;endFill=0;" parent="1" source="93dYQHgPQti2taukCdqZ-5" target="AQzfYVfxDlzEViwBDPFZ-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-5" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-5" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" parent="1" vertex="1">
           <mxGeometry x="488" y="508" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-7" value="&lt;font color=&quot;#fffff5&quot;&gt;An owner may&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;have many trails.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-7" value="&lt;font color=&quot;#fffff5&quot;&gt;An owner may&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;have many trails.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="436" y="570" width="110" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-8" value="&lt;font color=&quot;#fffff5&quot;&gt;A trail has one owner.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-8" value="&lt;font color=&quot;#fffff5&quot;&gt;A trail has one owner.&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="549" y="570" width="138" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFF5;endArrow=ERmany;endFill=0;" edge="1" parent="1" target="AQzfYVfxDlzEViwBDPFZ-35">
+        <mxCell id="93dYQHgPQti2taukCdqZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFF5;endArrow=ERmany;endFill=0;" parent="1" target="AQzfYVfxDlzEViwBDPFZ-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="543" y="985" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-9" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-9" value="Owner" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFF5;fillColor=#000000;fontColor=#FFFFF5;" parent="1" vertex="1">
           <mxGeometry x="482.75" y="887" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-11" value="&lt;font color=&quot;#fffff5&quot;&gt;An owner &lt;b&gt;may&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;have many trails.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-11" value="&lt;font color=&quot;#fffff5&quot;&gt;An owner &lt;b&gt;may&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div align=&quot;right&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;have many trails.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="425.75" y="956" width="110" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-12" value="&lt;font color=&quot;#fffff5&quot;&gt;A trail &lt;b&gt;must &lt;/b&gt;have&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;one owner.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="93dYQHgPQti2taukCdqZ-12" value="&lt;font color=&quot;#fffff5&quot;&gt;A trail &lt;b&gt;must &lt;/b&gt;have&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font color=&quot;#fffff5&quot;&gt;one owner.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="548.75" y="956" width="115" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="93dYQHgPQti2taukCdqZ-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FFFFF5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="93dYQHgPQti2taukCdqZ-9">
+        <mxCell id="93dYQHgPQti2taukCdqZ-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#FFFFF5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="93dYQHgPQti2taukCdqZ-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="587.25" y="986" as="sourcePoint" />
             <mxPoint x="543" y="986" as="targetPoint" />
