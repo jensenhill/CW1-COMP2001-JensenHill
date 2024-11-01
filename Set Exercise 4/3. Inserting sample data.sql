@@ -93,3 +93,9 @@ VALUES
 (11, 4),--Trail 11
 (11,5), --Trail 11
 (12,9); --Trail 12
+
+SELECT * FROM CW1.Feature;
+SELECT * FROM CW1.Location;
+SELECT * FROM CW1.Owner;
+SELECT * FROM CW1.Trail;
+SELECT * FROM CW1.Trail_Feature;
