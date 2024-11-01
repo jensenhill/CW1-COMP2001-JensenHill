@@ -49,7 +49,7 @@ SELECT * FROM CW1.Location WHERE location_id = 0; -- After update
 SELECT * FROM CW1.Location WHERE location_id = 0; -- Before update
 EXEC CW1.UpdateLocation @location_id = 0, @county = 'Massachusetts', @country = 'United States of America';
 SELECT * FROM CW1.Location WHERE location_id = 0; -- After update
--- Undo: EXEC CW1.UpdateLocation @location_id = 0, @county = 'Devon', @country = 'England';
+-- Undo: EXEC CW1.UpdateLocation @location_id = 0, @town = 'Plymouth', @county = 'Devon', @country = 'England';
 
 -- c. Attempting to make changes that would duplicate a record
 EXEC CW1.UpdateLocation @location_id = 2, @town = 'Bath', @county = 'Somerset', @country = 'England';
