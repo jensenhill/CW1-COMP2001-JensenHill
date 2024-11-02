@@ -13,4 +13,6 @@ SELECT * FROM CW1.TrailLog; -- See that table is populated
 CREATE VIEW CW1.TrailLogView AS
 SELECT l.trail_id,l.trail_name,o.owner_forename,o.owner_surname,l.creation_date
 FROM CW1.TrailLog l INNER JOIN CW1.Owner o ON l.owner_id = o.owner_id;
+
+GO
 SELECT * FROM CW1.TrailLogView;
